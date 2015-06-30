@@ -1,0 +1,1 @@
+Just playing around with the notions in [A Tour of Scala](http://www.scala-lang.org/old/node/104.html)

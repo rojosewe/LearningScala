@@ -13,8 +13,9 @@ object AbstractTypeTest1 {
     }
   
   def main(args: Array[String]): Unit = {
-		  val buf = newIntSeqBuf(7, 8)
-				  println("length = " + buf.length)
-				  println("content = " + buf.element)
+		val buf = newIntSeqBuf(7, 8)
+		println("length = " + buf.length)
+    println("content = " + buf.element)
+    println("as string = " + buf)
   }
 }
