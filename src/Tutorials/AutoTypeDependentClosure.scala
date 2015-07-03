@@ -10,6 +10,7 @@ package Tutorials
  * @author Rodrigo Weffer
  *
  */
+
 object AutoTypeDependentClosure {
 
   /*

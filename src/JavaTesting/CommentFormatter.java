@@ -1,11 +1,14 @@
 package JavaTesting;
 
 /**
- * The loop function just accepts a body of a loop and returns an instance of
- * class LoopUnlessCond (which encapsulates this body object). Note that the
- * body didn't get evaluated yet. Class LoopUnlessCond has a method unless which
- * we can use as a infix operator. This way, we achieve a quite natural syntax
- * for our new loop: loop { < stats > } unless ( < cond > ).
+ * Any method which takes a single parameter can be used as an infix operator in
+ * Scala. Here is the definition of classMyBool which defines three methods and,
+ * or, and negate.
+ * 
+ * As the first line of this code shows, it is also possible to use nullary
+ * methods as postfix operators. The second line defines an xor function using
+ * the and and or methods as well as the new not function. In this example the
+ * use of infix operators helps to make the definition of xor more readable.
  * 
  * @author Rodrigo Weffer
  *
